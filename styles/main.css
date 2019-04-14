@@ -1,0 +1,38 @@
+body {
+  padding: 20px;
+}
+
+li {
+  border-bottom: 2px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+form {
+  display: inline-block !important;
+}
+
+/* Task list */
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+li > input[type="checkbox"] {
+  margin: 0 10px;
+  position: absolute;
+  left: 41%;
+}
+
+.mdl-button--accent.mdl-button--accent.mdl-button--raised {
+  position: absolute;
+  left: 51%
+}
+
+.mdl-textfield {
+  padding-left: 20px;
+  padding-right: 20px;
+}
